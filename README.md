@@ -33,8 +33,8 @@ granular -> "syntax.[value-type].[category].[device?].[state?].[application]"
 
 ##### **examples**:
 
-simplified -> syntax.cta.default  
-granular -> syntax.color.actions.cta.default.background-color
+simplified -> syntax.primary-color.default  
+granular -> syntax.color.action.enabled.background
 
 ---
 
