@@ -1,0 +1,8 @@
+{
+    "syntax": {
+        "text-color": {
+            "default": { "value": "{color.neutral.black}" },
+            "on-dark": { "value": "{color.neutral.white}" }
+        }
+    }
+}

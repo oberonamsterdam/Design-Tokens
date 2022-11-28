@@ -1,0 +1,9 @@
+{
+    "mediaQuery": {
+        "xl": { "value": "1440px" },
+        "l": { "value": "1280px" },
+        "m": { "value": "1024px" },
+        "s": { "value": "768px" },
+        "xs": { "value": "480px" }
+    }
+}
