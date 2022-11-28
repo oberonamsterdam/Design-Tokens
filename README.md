@@ -1,2 +1,1 @@
-# Design-Tokens
-The Oberon design tokens standard.
+# Oberon design tokens standard.
