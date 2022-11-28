@@ -1,14 +1,12 @@
 # Oberon Design Tokens Guidelines
 
-Design tokens are design decisions, represented as data, that ensure systematically unified and cohesive product experiences.
+Design tokens are design decisions, represented as data, that ensure systematically unified and cohesive product experiences. Oberons design tokens are categorized into three types.
 
-## Conventions
+- [Option Tokens] (#option-tokens)
+- [Syntax Tokens] (#syntax-tokens)
+- [Component Tokens] (#component-tokens)
 
-Our design tokens are categorized into three types.
-
----
-
-### Option tokens
+## Option Tokens
 
 Raw values for that can be applied to syntax and component tokens, think: colors, sizing units, font families, border radiuses, animation curves, etc.
 
@@ -20,9 +18,7 @@ Raw values for that can be applied to syntax and component tokens, think: colors
 
 color.blue.100, font-family.sans-serif, sizing.10
 
----
-
-### Syntax tokens
+## Syntax Tokens
 
 Tokens with a purpose, think: cta color, body text color, etc. values are option tokens. We can define two types of syntax tokens, simplified and granular. simplified are common syntax options that are often used. simplified token can be used in granual tokens.
 
@@ -36,9 +32,7 @@ granular -> "syntax.[value-type].[category].[device?].[state?].[application]"
 simplified -> syntax.primary-color.default  
 granular -> syntax.color.action.enabled.background
 
----
-
-### Component tokens (optional)
+## Component Tokens (optional)
 
 Specific tokens that are applied to components, think: button background color, button foreground color, card border radius, etc.
 
