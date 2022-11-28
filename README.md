@@ -2,9 +2,9 @@
 
 Design tokens are design decisions, represented as data, that ensure systematically unified and cohesive product experiences. Oberons design tokens are categorized into three types.
 
-- [Option Tokens] (#option-tokens)
-- [Syntax Tokens] (#syntax-tokens)
-- [Component Tokens] (#component-tokens)
+- [Option Tokens](#option-tokens)
+- [Syntax Tokens](#syntax-tokens)
+- [Component Tokens](#component-tokens)
 
 ## Option Tokens
 
