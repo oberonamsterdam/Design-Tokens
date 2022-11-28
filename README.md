@@ -12,11 +12,11 @@ Raw values for that can be applied to syntax and component tokens, think: colors
 
 ##### **naming convention**:
 
-[value-type].[option].[sub-option?]
+`[value-type].[option].[sub-option?]`
 
 ##### **examples**:
 
-color.blue.100, font-family.sans-serif, sizing.10
+`color.blue.100, font-family.sans-serif, sizing.10`
 
 ## Syntax Tokens
 
@@ -24,13 +24,13 @@ Tokens with a purpose, think: cta color, body text color, etc. values are option
 
 ##### **naming convention**:
 
-simplified -> "syntax.[category].[option?].[device?].[state?]"  
-granular -> "syntax.[value-type].[category].[device?].[state?].[application]"
+simplified -> `syntax.[category].[option?].[device?].[state?]`
+granular -> `syntax.[value-type].[category].[device?].[state?].[application]`
 
 ##### **examples**:
 
-simplified -> syntax.primary-color.default  
-granular -> syntax.color.action.enabled.background
+simplified -> `syntax.primary-color.default`
+granular -> `syntax.color.action.enabled.background`
 
 ## Component Tokens (optional)
 
@@ -38,12 +38,12 @@ Specific tokens that are applied to components, think: button background color, 
 
 ##### **naming convention**:
 
-[component].[variant?].[state?].[application]
+`[component].[variant?].[state?].[application]`
 
 ##### **examples**:
 
-button.cta.enabled.background-color
-button.border-radius
+`button.cta.enabled.background-color
+button.border-radius`
 
 ## Themes
 
