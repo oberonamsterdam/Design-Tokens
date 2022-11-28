@@ -6,6 +6,8 @@ Design tokens are design decisions, represented as data, that ensure systematica
 
 Our design tokens are categorized into three types.
 
+---
+
 ### Option tokens
 
 Raw values for that can be applied to syntax and component tokens, think: colors, sizing units, font families, border radiuses, animation curves, etc.
