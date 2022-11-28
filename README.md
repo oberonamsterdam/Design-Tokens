@@ -4,11 +4,9 @@ Design tokens are design decisions, represented as data, that ensure systematica
 
 ## Conventions
 
-Our design tokens are categorized in three main sections.
+Our design tokens are categorized into three types.
 
-### Global
-
-#### Option tokens
+### Option tokens
 
 Raw values for that can be applied to syntax and component tokens, think: colors, sizing units, font families, border radiuses, animation curves, etc.
 
@@ -22,7 +20,7 @@ color.blue.100, font-family.sans-serif, sizing.10
 
 ---
 
-#### Syntax tokens
+### Syntax tokens
 
 Tokens with a purpose, think: cta color, body text color, etc. values are option tokens. We can define two types of syntax tokens, simplified and granular. simplified are common syntax options that are often used. simplified token can be used in granual tokens.
 
@@ -38,7 +36,7 @@ granular -> syntax.color.action.enabled.background
 
 ---
 
-#### Component tokens (optional)
+### Component tokens (optional)
 
 Specific tokens that are applied to components, think: button background color, button foreground color, card border radius, etc.
 
