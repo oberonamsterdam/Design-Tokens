@@ -10,40 +10,60 @@ Design tokens are design decisions, represented as data, that ensure systematica
 
 Raw values for that can be applied to syntax and component tokens, think: colors, sizing units, font families, border radiuses, animation curves, etc.
 
-##### **naming convention**:
+### naming convention:
 
-`[value-type].[option].[sub-option?]`
+```
+[value-type].[option].[sub-option?]
+```
 
-##### **examples**:
+### examples:
 
-`color.blue.100, font-family.sans-serif, sizing.10`
+```
+color.blue.100, font-family.sans-serif, sizing.10
+```
 
 ## Syntax Tokens
 
 Tokens with a purpose, think: cta color, body text color, etc. values are option tokens. We can define two types of syntax tokens, simplified and granular. simplified are common syntax options that are often used. simplified token can be used in granual tokens.
 
-##### **naming convention**:
+### naming convention:
 
-simplified -> `syntax.[category].[option?].[device?].[state?]`
-granular -> `syntax.[value-type].[category].[device?].[state?].[application]`
+simplified: 
+```
+syntax.[category].[option?].[device?].[state?]
+```
+granular: 
+```
+syntax.[value-type].[category].[device?].[state?].[application]
+```
 
-##### **examples**:
+### examples:
 
-simplified -> `syntax.primary-color.default`
-granular -> `syntax.color.action.enabled.background`
+simplified: 
+```
+syntax.primary-color.default
+```  
+granular: 
+```
+syntax.color.action.enabled.background
+```
 
 ## Component Tokens (optional)
 
 Specific tokens that are applied to components, think: button background color, button foreground color, card border radius, etc.
 
-##### **naming convention**:
+### naming convention:
 
-`[component].[variant?].[state?].[application]`
+```
+[component].[variant?].[state?].[application]
+```
 
-##### **examples**:
+### examples:
 
-`button.cta.enabled.background-color
-button.border-radius`
+```
+button.cta.enabled.background-color
+button.border-radius
+```
 
 ## Themes
 
