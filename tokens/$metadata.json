@@ -15,6 +15,12 @@
     "syntax/action-color",
     "syntax/action-radius",
     "syntax/brand-color",
-    "syntax/disabled-color"
+    "syntax/disabled-color",
+    "component/button",
+    "component/checkbox",
+    "component/input",
+    "component/link",
+    "component/radio",
+    "component/switch"
   ]
 }
