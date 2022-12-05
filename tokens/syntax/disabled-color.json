@@ -1,0 +1,8 @@
+{
+    "syntax": {
+        "disabled-color": {
+            "background": { "value": "{color.neutral.40}" },
+            "foreground": { "value": "{color.neutral.70}" }
+        }
+    }
+}

@@ -1,1 +1,6 @@
-{ "border-radius": { "max": { "value": "9999px", "type": "borderRadius" } } }
+{
+    "border-radius": {
+        "m": { "value": "4px", "type": "borderRadius" },
+        "max": { "value": "9999px", "type": "borderRadius" }
+    }
+}
