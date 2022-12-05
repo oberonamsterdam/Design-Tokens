@@ -1,5 +1,5 @@
 {
     "font-weight": {
-        "m": { "value": "400" }
+        "m": { "value": "400", "type": "fontWeights" }
     }
 }
