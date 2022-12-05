@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "brand-color": {
+      "primary": {
+        "default": {
+          "value": "blue",
+          "type": "color"
+        },
+        "dark": {
+          "value": "darkblue",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

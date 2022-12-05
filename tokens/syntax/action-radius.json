@@ -1,0 +1,10 @@
+{
+  "syntax": {
+    "action-radius": {
+      "default": {
+        "value": "{border-radius.m}",
+        "type": "other"
+      }
+    }
+  }
+}

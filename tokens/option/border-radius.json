@@ -1,0 +1,12 @@
+{
+  "border-radius": {
+    "m": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "max": {
+      "value": "9999px",
+      "type": "borderRadius"
+    }
+  }
+}
