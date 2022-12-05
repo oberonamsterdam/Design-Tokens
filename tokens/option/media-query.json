@@ -1,9 +1,24 @@
 {
-    "mediaQuery": {
-        "xl": { "value": "1440px" },
-        "l": { "value": "1280px" },
-        "m": { "value": "1024px" },
-        "s": { "value": "768px" },
-        "xs": { "value": "480px" }
+  "mediaQuery": {
+    "xl": {
+      "value": "1440px",
+      "type": "other"
+    },
+    "l": {
+      "value": "1280px",
+      "type": "other"
+    },
+    "m": {
+      "value": "1024px",
+      "type": "other"
+    },
+    "s": {
+      "value": "768px",
+      "type": "other"
+    },
+    "xs": {
+      "value": "480px",
+      "type": "other"
     }
+  }
 }

@@ -1,9 +1,12 @@
 {
-    "syntax": {
-        "background": {
-            "neutral": {
-                "default": { "value": "{color.neutral.white}" }
-            }
+  "syntax": {
+    "background": {
+      "neutral": {
+        "default": {
+          "value": "{color.neutral.white}",
+          "type": "color"
         }
+      }
     }
+  }
 }

@@ -1,14 +1,44 @@
 {
-    "font-size": {
-        "1": { "value": "12px", "type": "fontSize" },
-        "2": { "value": "14px", "type": "fontSize" },
-        "3": { "value": "16px", "type": "fontSize" },
-        "4": { "value": "18px", "type": "fontSize" },
-        "5": { "value": "20px", "type": "fontSize" },
-        "6": { "value": "24px", "type": "fontSize" },
-        "7": { "value": "30px", "type": "fontSize" },
-        "8": { "value": "34px", "type": "fontSize" },
-        "9": { "value": "40px", "type": "fontSize" },
-        "10": { "value": "60px", "type": "fontSize" }
+  "font-size": {
+    "1": {
+      "value": "12px",
+      "type": "fontSize"
+    },
+    "2": {
+      "value": "14px",
+      "type": "fontSize"
+    },
+    "3": {
+      "value": "16px",
+      "type": "fontSize"
+    },
+    "4": {
+      "value": "18px",
+      "type": "fontSize"
+    },
+    "5": {
+      "value": "20px",
+      "type": "fontSize"
+    },
+    "6": {
+      "value": "24px",
+      "type": "fontSize"
+    },
+    "7": {
+      "value": "30px",
+      "type": "fontSize"
+    },
+    "8": {
+      "value": "34px",
+      "type": "fontSize"
+    },
+    "9": {
+      "value": "40px",
+      "type": "fontSize"
+    },
+    "10": {
+      "value": "60px",
+      "type": "fontSize"
     }
+  }
 }
