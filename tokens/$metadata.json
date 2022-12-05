@@ -21,6 +21,7 @@
     "component/input",
     "component/link",
     "component/radio",
-    "component/switch"
+    "component/switch",
+    "option/spacing"
   ]
 }
