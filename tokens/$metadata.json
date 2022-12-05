@@ -9,6 +9,7 @@
     "option/line-height",
     "option/media-query",
     "option/sizing",
+    "option/spacing",
     "syntax/background",
     "syntax/border-color",
     "syntax/text-color",
@@ -21,7 +22,6 @@
     "component/input",
     "component/link",
     "component/radio",
-    "component/switch",
-    "option/spacing"
+    "component/switch"
   ]
 }

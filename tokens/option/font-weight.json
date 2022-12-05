@@ -3,6 +3,14 @@
     "m": {
       "value": "400",
       "type": "fontWeights"
+    },
+    "l": {
+      "value": "500",
+      "type": "fontWeights"
+    },
+    "xl": {
+      "value": "600",
+      "type": "fontWeights"
     }
   }
 }
