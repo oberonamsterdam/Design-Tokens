@@ -8,6 +8,10 @@
       "on-dark": {
         "value": "{color.neutral.white}",
         "type": "color"
+      },
+      "on-primary": {
+        "value": "{color.neutral.white}",
+        "type": "color"
       }
     }
   }
