@@ -1,7 +1,0 @@
-{
-    "border-color": {
-        "neutral": {
-            "default": { "value": "{color.neutral.30}" }
-        }
-    }
-}
