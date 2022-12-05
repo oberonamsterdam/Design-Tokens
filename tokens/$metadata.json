@@ -11,6 +11,10 @@
     "option/sizing",
     "syntax/background",
     "syntax/border-color",
-    "syntax/text-color"
+    "syntax/text-color",
+    "syntax/action-color",
+    "syntax/action-radius",
+    "syntax/brand-color",
+    "syntax/disabled-color"
   ]
 }
