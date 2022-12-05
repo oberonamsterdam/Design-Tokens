@@ -1,14 +1,16 @@
 {
-  "button": {
-    "primary": {
-      "enabled": {
-        "value": {
-          "height": "{sizing.9}",
-          "horizontalPadding": "{sizing.5}",
-          "fill": "{syntax.action-color.primary.enabled.background}"
-        },
-        "type": "composition"
-      }
+    "button": {
+        "primary": {
+            "enabled": {
+                "body": {
+                    "value": {
+                        "height": "{sizing.9}",
+                        "horizontalPadding": "{sizing.5}",
+                        "fill": "{syntax.action-color.primary.enabled.background}"
+                    },
+                    "type": "composition"
+                }
+            }
+        }
     }
-  }
 }
