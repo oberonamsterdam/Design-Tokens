@@ -1,9 +1,12 @@
 {
-    "syntax": {
-        "border-color": {
-            "neutral": {
-                "default": { "value": "{color.neutral.30}" }
-            }
+  "syntax": {
+    "border-color": {
+      "neutral": {
+        "default": {
+          "value": "{color.neutral.30}",
+          "type": "color"
         }
+      }
     }
+  }
 }

@@ -1,5 +1,8 @@
 {
-    "font-family": {
-        "sans-serif": { "value": "Helvetica", "type": "fontFamilies" }
+  "font-family": {
+    "sans-serif": {
+      "value": "Helvetica",
+      "type": "fontFamilies"
     }
+  }
 }
