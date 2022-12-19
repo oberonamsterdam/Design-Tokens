@@ -1,25 +1,25 @@
 {
-    "button": {
-        "solid": {
-            "enabled": {
-                "body": {
-                    "value": {
-                        "height": "{sizing.8}",
-                        "horizontalPadding": "{spacing.4}",
-                        "fill": "{syntax.action-color.primary.enabled.background}",
-                        "borderRadius": "{syntax.action-radius.default}",
-                        "borderWidth": "{border-width.m}",
-                        "border": "{syntax.action-color.primary.enabled.border}"
-                    },
-                    "type": "composition"
-                },
-                "label": {
-                    "value": {
-                        "fontWeights": "{font-weight.xl}"
-                    },
-                    "type": "composition"
-                }
-            }
+  "button": {
+    "solid": {
+      "enabled": {
+        "body": {
+          "value": {
+            "height": "{sizing.8}",
+            "horizontalPadding": "{spacing.4}",
+            "fill": "{syntax.action-color.primary.enabled.background}",
+            "borderRadius": "{syntax.action-radius.default}",
+            "borderWidth": "{border-width.m}",
+            "border": "{syntax.action-color.primary.enabled.border}"
+          },
+          "type": "composition"
+        },
+        "label": {
+          "value": {
+            "fontWeights": "{font-weight.xl}"
+          },
+          "type": "composition"
         }
+      }
     }
+  }
 }
