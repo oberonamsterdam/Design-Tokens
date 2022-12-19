@@ -27,7 +27,7 @@
           "width": "{checkbox.enabled.body.width}",
           "height": "{checkbox.enabled.body.height}",
           "fill": "{syntax.action-color.primary.enabled.background}",
-          "borderRadius": "{syntax.action-radius.default}",
+          "borderRadius": "{checkbox.enabled.body.borderRadius}",
           "borderWidth": "{checkbox.enabled.body.borderWidth}",
           "border": "{syntax.action-color.primary.active.border}"
         },
