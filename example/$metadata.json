@@ -22,6 +22,8 @@
     "component/link",
     "component/checkbox",
     "component/radio",
-    "component/switch"
+    "component/switch",
+    "component/title",
+    "component/body"
   ]
 }

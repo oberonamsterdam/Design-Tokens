@@ -2,43 +2,43 @@
   "font-size": {
     "1": {
       "value": "12px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "2": {
       "value": "14px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "3": {
       "value": "16px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "4": {
       "value": "18px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "5": {
       "value": "20px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "6": {
       "value": "24px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "7": {
       "value": "30px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "8": {
       "value": "34px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "9": {
       "value": "40px",
-      "type": "fontSize"
+      "type": "fontSizes"
     },
     "10": {
       "value": "60px",
-      "type": "fontSize"
+      "type": "fontSizes"
     }
   }
 }

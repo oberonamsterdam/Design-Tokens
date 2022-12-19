@@ -7,14 +7,14 @@
           "borderRadius": "{syntax.action-radius.default}",
           "borderWidth": "{border-width.m}",
           "border": "{syntax.border-color.neutral.default}",
-          "height": "{sizing.8}",
+          "height": "{sizing.9}",
           "horizontalPadding": "{spacing.4}"
         },
         "type": "composition"
       },
-      "container": {
+      "value": {
         "value": {
-          "itemSpacing": "{spacing.2}"
+          "typography": "{body.m}"
         },
         "type": "composition"
       }

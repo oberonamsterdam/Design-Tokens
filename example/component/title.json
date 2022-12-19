@@ -1,0 +1,13 @@
+{
+  "title": {
+    "m": {
+      "value": {
+        "fontFamily": "{font-family.sans-serif}",
+        "fontWeight": "{font-weight.xl}",
+        "fontSize": "{font-size.3}",
+        "lineHeight": "{line-height.s}"
+      },
+      "type": "typography"
+    }
+  }
+}
