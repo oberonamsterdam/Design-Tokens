@@ -1,5 +1,5 @@
 {
-    "source": ["tokens/**/*.json"],
+    "source": ["example/**/*.json"],
     "platforms": {
         "js": {
             "buildPath": "generated",
