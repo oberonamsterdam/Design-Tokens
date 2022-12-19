@@ -3,11 +3,18 @@
     "enabled": {
       "body": {
         "value": {
-          "horizontalPadding": "{spacing.4}",
-          "fill": "{syntax.action-color.primary.enabled.background}",
+          "fill": "{syntax.background.neutral.default}",
           "borderRadius": "{syntax.action-radius.default}",
           "borderWidth": "{border-width.m}",
-          "border": "{syntax.action-color.primary.enabled.border}"
+          "border": "{syntax.border-color.neutral.default}",
+          "height": "{sizing.8}",
+          "horizontalPadding": "{spacing.4}"
+        },
+        "type": "composition"
+      },
+      "container": {
+        "value": {
+          "itemSpacing": "{spacing.2}"
         },
         "type": "composition"
       }

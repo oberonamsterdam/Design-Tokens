@@ -1,1 +1,12 @@
-{}
+{
+  "link": {
+    "enabled": {
+      "label": {
+        "value": {
+          "fill": "{syntax.action-color.primary.enabled.background}"
+        },
+        "type": "composition"
+      }
+    }
+  }
+}
