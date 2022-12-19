@@ -17,7 +17,8 @@
             "width": "{sizing.5}",
             "height": "{switch.enabled.icon.width}",
             "fill": "rgba(0,0,0,0)",
-            "borderRadius": "{switch.enabled.body.borderRadius}"
+            "borderRadius": "{switch.enabled.body.borderRadius}",
+            "border": "{syntax.border-color.neutral.default}"
           },
           "type": "composition"
         }
@@ -39,7 +40,8 @@
             "width": "{switch.enabled.icon.width}",
             "height": "{switch.enabled.icon.height}",
             "fill": "{syntax.action-color.primary.enabled.foreground}",
-            "borderRadius": "{switch.enabled.icon.borderRadius}"
+            "borderRadius": "{switch.enabled.icon.borderRadius}",
+            "border": "{switch.enabled.icon.border}"
           },
           "type": "composition"
         }
