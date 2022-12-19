@@ -1,0 +1,17 @@
+{
+    "checkbox": {
+        "enabled": {
+            "body": {
+                "value": {
+                    "width": "{sizing.7}",
+                    "height": "{sizing.7}",
+                    "fill": "{syntax.background.neutral.default}",
+                    "borderRadius": "{syntax.action-radius.default}",
+                    "borderWidth": "{border-width.m}",
+                    "border": "{syntax.border-color.neutral.default}"
+                },
+                "type": "composition"
+            }
+        }
+    }
+}
