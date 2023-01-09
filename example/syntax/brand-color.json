@@ -3,11 +3,11 @@
     "brand-color": {
       "primary": {
         "default": {
-          "value": "blue",
+          "value": "{color.blue.500}",
           "type": "color"
         },
         "dark": {
-          "value": "darkblue",
+          "value": "{color.blue.600}",
           "type": "color"
         }
       }

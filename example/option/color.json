@@ -137,6 +137,16 @@
         "value": "#A7262E",
         "type": "color"
       }
+    },
+    "blue": {
+      "500": {
+        "value": "blue",
+        "type": "color"
+      },
+      "600": {
+        "value": "darkblue",
+        "type": "color"
+      }
     }
   }
 }
