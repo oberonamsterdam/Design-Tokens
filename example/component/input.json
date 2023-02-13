@@ -1,22 +1,24 @@
 {
-  "input": {
-    "enabled": {
-      "body": {
-        "value": {
-          "fill": "{syntax.background.neutral.default}",
-          "borderRadius": "{syntax.action-radius.default}",
-          "borderWidth": "{border-width.m}",
-          "border": "{syntax.border-color.neutral.default}",
-          "height": "{sizing.9}",
-          "horizontalPadding": "{spacing.4}"
+  "component": {
+    "input": {
+      "enabled": {
+        "body": {
+          "value": {
+            "fill": "{background.neutral.default}",
+            "borderRadius": "{action-radius.default}",
+            "borderWidth": "{border-width.m}",
+            "border": "{border-color.neutral.default}",
+            "height": "{sizing.9}",
+            "horizontalPadding": "{spacing.4}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      },
-      "value": {
         "value": {
-          "typography": "{body.m}"
-        },
-        "type": "composition"
+          "value": {
+            "typography": "{component.body.m}"
+          },
+          "type": "composition"
+        }
       }
     }
   }

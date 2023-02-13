@@ -1,0 +1,14 @@
+{
+  "brand-color": {
+    "primary": {
+      "default": {
+        "value": "{brand.color.blue.500}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{brand.color.blue.600}",
+        "type": "color"
+      }
+    }
+  }
+}

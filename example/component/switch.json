@@ -1,51 +1,53 @@
 {
-  "switch": {
-    "enabled": {
-      "body": {
-        "value": {
-          "width": "{sizing.8}",
-          "height": "{sizing.6}",
-          "fill": "{syntax.background.neutral.default}",
-          "borderRadius": "{border-radius.max}",
-          "borderWidth": "{border-width.m}",
-          "border": "{syntax.border-color.neutral.default}"
+  "component": {
+    "switch": {
+      "enabled": {
+        "body": {
+          "value": {
+            "width": "{sizing.8}",
+            "height": "{sizing.6}",
+            "fill": "{background.neutral.default}",
+            "borderRadius": "{border-radius.max}",
+            "borderWidth": "{border-width.m}",
+            "border": "{border-color.neutral.default}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
+        "icon": {
+          "value": {
+            "width": "{sizing.5}",
+            "height": "{switch.enabled.icon.width}",
+            "fill": "rgba(0,0,0,0)",
+            "borderRadius": "{switch.enabled.body.borderRadius}",
+            "borderWidth": "{border-width.m}",
+            "border": "{border-color.neutral.default}"
+          },
+          "type": "composition"
+        }
       },
-      "icon": {
-        "value": {
-          "width": "{sizing.5}",
-          "height": "{switch.enabled.icon.width}",
-          "fill": "rgba(0,0,0,0)",
-          "borderRadius": "{switch.enabled.body.borderRadius}",
-          "borderWidth": "{border-width.m}",
-          "border": "{syntax.border-color.neutral.default}"
+      "selected": {
+        "body": {
+          "value": {
+            "width": "{switch.enabled.body.width}",
+            "height": "{switch.enabled.body.height}",
+            "fill": "{action-color.primary.enabled.background}",
+            "borderRadius": "{switch.enabled.body.borderRadius}",
+            "borderWidth": "{switch.enabled.body.borderWidth}",
+            "border": "{action-color.primary.active.border}"
+          },
+          "type": "composition"
         },
-        "type": "composition"
-      }
-    },
-    "selected": {
-      "body": {
-        "value": {
-          "width": "{switch.enabled.body.width}",
-          "height": "{switch.enabled.body.height}",
-          "fill": "{syntax.action-color.primary.enabled.background}",
-          "borderRadius": "{switch.enabled.body.borderRadius}",
-          "borderWidth": "{switch.enabled.body.borderWidth}",
-          "border": "{syntax.action-color.primary.active.border}"
-        },
-        "type": "composition"
-      },
-      "icon": {
-        "value": {
-          "width": "{switch.enabled.icon.width}",
-          "height": "{switch.enabled.icon.height}",
-          "fill": "{syntax.action-color.primary.enabled.foreground}",
-          "borderRadius": "{switch.enabled.icon.borderRadius}",
-          "borderWidth": "{switch.enabled.icon.borderWidth}",
-          "border": "{switch.enabled.icon.border}"
-        },
-        "type": "composition"
+        "icon": {
+          "value": {
+            "width": "{switch.enabled.icon.width}",
+            "height": "{switch.enabled.icon.height}",
+            "fill": "{action-color.primary.enabled.foreground}",
+            "borderRadius": "{switch.enabled.icon.borderRadius}",
+            "borderWidth": "{switch.enabled.icon.borderWidth}",
+            "border": "{switch.enabled.icon.border}"
+          },
+          "type": "composition"
+        }
       }
     }
   }

@@ -1,11 +1,13 @@
 {
-  "link": {
-    "enabled": {
-      "label": {
-        "value": {
-          "fill": "{syntax.action-color.primary.enabled.background}"
-        },
-        "type": "composition"
+  "component": {
+    "link": {
+      "enabled": {
+        "label": {
+          "value": {
+            "fill": "{action-color.primary.enabled.background}"
+          },
+          "type": "composition"
+        }
       }
     }
   }

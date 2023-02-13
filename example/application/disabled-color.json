@@ -1,0 +1,12 @@
+{
+  "disabled-color": {
+    "background": {
+      "value": "{brand.color.neutral.40}",
+      "type": "other"
+    },
+    "foreground": {
+      "value": "{brand.color.neutral.70}",
+      "type": "other"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "text-color": {
+    "default": {
+      "value": "{brand.color.neutral.black}",
+      "type": "color"
+    },
+    "on-dark": {
+      "value": "{brand.color.neutral.white}",
+      "type": "color"
+    },
+    "on-primary": {
+      "value": "{brand.color.neutral.white}",
+      "type": "color"
+    }
+  }
+}
