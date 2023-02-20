@@ -1,27 +1,27 @@
 {
-  "component": {
-    "button": {
-      "solid": {
-        "enabled": {
-          "body": {
-            "value": {
-              "height": "{sizing.8}",
-              "horizontalPadding": "{spacing.4}",
-              "fill": "{color.action.primary.enabled.background}",
-              "borderRadius": "{radius.action.default}",
-              "borderWidth": "{border-width.m}",
-              "border": "{color.action.primary.enabled.border}"
-            },
-            "type": "composition"
-          },
-          "label": {
-            "value": {
-              "fontWeights": "{brand.font-weight.xl}"
-            },
-            "type": "composition"
-          }
+    "component": {
+        "button": {
+            "solid": {
+                "enabled": {
+                    "body": {
+                        "value": {
+                            "height": "{sizing.scale.7}",
+                            "horizontalPadding": "{spacing.scale.3}",
+                            "fill": "{color.action.primary.enabled.background}",
+                            "borderRadius": "{radius.action.default}",
+                            "borderWidth": "{border-width.m}",
+                            "border": "{color.action.primary.enabled.border}"
+                        },
+                        "type": "composition"
+                    },
+                    "label": {
+                        "value": {
+                            "fontWeights": "{brand.font-weight.xl}"
+                        },
+                        "type": "composition"
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
