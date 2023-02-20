@@ -4,7 +4,7 @@
       "enabled": {
         "label": {
           "value": {
-            "fill": "{action-color.primary.enabled.background}"
+            "fill": "{color.action.primary.enabled.background}"
           },
           "type": "composition"
         }

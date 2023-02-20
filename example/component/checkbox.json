@@ -6,10 +6,10 @@
           "value": {
             "width": "{sizing.6}",
             "height": "{checkbox.enabled.body.width}",
-            "fill": "{background.neutral.default}",
-            "borderRadius": "{action-radius.default}",
+            "fill": "{color.background.neutral.default}",
+            "borderRadius": "{radius.action.default}",
             "borderWidth": "{border-width.m}",
-            "border": "{border-color.neutral.default}"
+            "border": "{color.border.neutral.default}"
           },
           "type": "composition"
         },
@@ -27,10 +27,10 @@
           "value": {
             "width": "{checkbox.enabled.body.width}",
             "height": "{checkbox.enabled.body.height}",
-            "fill": "{action-color.primary.enabled.background}",
+            "fill": "{color.action.primary.enabled.background}",
             "borderRadius": "{checkbox.enabled.body.borderRadius}",
             "borderWidth": "{checkbox.enabled.body.borderWidth}",
-            "border": "{action-color.primary.active.border}"
+            "border": "{color.action.primary.active.border}"
           },
           "type": "composition"
         },
@@ -38,7 +38,7 @@
           "value": {
             "width": "{checkbox.enabled.icon.width}",
             "height": "{checkbox.enabled.icon.height}",
-            "fill": "{action-color.primary.enabled.foreground}"
+            "fill": "{color.action.primary.enabled.foreground}"
           },
           "type": "composition"
         }

@@ -6,10 +6,10 @@
           "value": {
             "width": "{sizing.8}",
             "height": "{sizing.6}",
-            "fill": "{background.neutral.default}",
+            "fill": "{color.background.neutral.default}",
             "borderRadius": "{border-radius.max}",
             "borderWidth": "{border-width.m}",
-            "border": "{border-color.neutral.default}"
+            "border": "{color.border.neutral.default}"
           },
           "type": "composition"
         },
@@ -20,7 +20,7 @@
             "fill": "rgba(0,0,0,0)",
             "borderRadius": "{switch.enabled.body.borderRadius}",
             "borderWidth": "{border-width.m}",
-            "border": "{border-color.neutral.default}"
+            "border": "{color.border.neutral.default}"
           },
           "type": "composition"
         }
@@ -30,10 +30,10 @@
           "value": {
             "width": "{switch.enabled.body.width}",
             "height": "{switch.enabled.body.height}",
-            "fill": "{action-color.primary.enabled.background}",
+            "fill": "{color.action.primary.enabled.background}",
             "borderRadius": "{switch.enabled.body.borderRadius}",
             "borderWidth": "{switch.enabled.body.borderWidth}",
-            "border": "{action-color.primary.active.border}"
+            "border": "{color.action.primary.active.border}"
           },
           "type": "composition"
         },
@@ -41,7 +41,7 @@
           "value": {
             "width": "{switch.enabled.icon.width}",
             "height": "{switch.enabled.icon.height}",
-            "fill": "{action-color.primary.enabled.foreground}",
+            "fill": "{color.action.primary.enabled.foreground}",
             "borderRadius": "{switch.enabled.icon.borderRadius}",
             "borderWidth": "{switch.enabled.icon.borderWidth}",
             "border": "{switch.enabled.icon.border}"

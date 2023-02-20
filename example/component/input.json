@@ -4,10 +4,10 @@
       "enabled": {
         "body": {
           "value": {
-            "fill": "{background.neutral.default}",
-            "borderRadius": "{action-radius.default}",
+            "fill": "{color.background.neutral.default}",
+            "borderRadius": "{radius.action.default}",
             "borderWidth": "{border-width.m}",
-            "border": "{border-color.neutral.default}",
+            "border": "{color.border.neutral.default}",
             "height": "{sizing.9}",
             "horizontalPadding": "{spacing.4}"
           },

@@ -6,10 +6,10 @@
           "value": {
             "width": "{sizing.6}",
             "height": "{radio.enabled.body.width}",
-            "fill": "{background.neutral.default}",
+            "fill": "{color.background.neutral.default}",
             "borderRadius": "{border-radius.max}",
             "borderWidth": "{border-width.m}",
-            "border": "{border-color.neutral.default}"
+            "border": "{color.border.neutral.default}"
           },
           "type": "composition"
         },
@@ -28,10 +28,10 @@
           "value": {
             "width": "{radio.enabled.body.width}",
             "height": "{radio.enabled.body.height}",
-            "fill": "{action-color.primary.enabled.background}",
+            "fill": "{color.action.primary.enabled.background}",
             "borderRadius": "{radio.enabled.body.borderRadius}",
             "borderWidth": "{radio.enabled.body.borderWidth}",
-            "border": "{action-color.primary.active.border}"
+            "border": "{color.action.primary.active.border}"
           },
           "type": "composition"
         },
@@ -39,7 +39,7 @@
           "value": {
             "width": "{radio.enabled.icon.width}",
             "height": "{radio.enabled.icon.height}",
-            "fill": "{action-color.primary.enabled.foreground}",
+            "fill": "{color.action.primary.enabled.foreground}",
             "borderRadius": "{radio.enabled.icon.borderRadius}"
           },
           "type": "composition"

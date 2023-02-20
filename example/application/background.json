@@ -1,9 +1,11 @@
 {
-  "background": {
-    "neutral": {
-      "default": {
-        "value": "{brand.color.neutral.white}",
-        "type": "color"
+  "color": {
+    "background": {
+      "neutral": {
+        "default": {
+          "value": "{brand.color.neutral.white}",
+          "type": "color"
+        }
       }
     }
   }

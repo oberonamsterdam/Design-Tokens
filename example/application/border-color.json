@@ -1,9 +1,11 @@
 {
-  "border-color": {
-    "neutral": {
-      "default": {
-        "value": "{brand.color.neutral.30}",
-        "type": "color"
+  "color": {
+    "border": {
+      "neutral": {
+        "default": {
+          "value": "{brand.color.neutral.30}",
+          "type": "color"
+        }
       }
     }
   }

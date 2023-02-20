@@ -7,10 +7,10 @@
             "value": {
               "height": "{sizing.8}",
               "horizontalPadding": "{spacing.4}",
-              "fill": "{action-color.primary.enabled.background}",
-              "borderRadius": "{action-radius.default}",
+              "fill": "{color.action.primary.enabled.background}",
+              "borderRadius": "{radius.action.default}",
               "borderWidth": "{border-width.m}",
-              "border": "{action-color.primary.enabled.border}"
+              "border": "{color.action.primary.enabled.border}"
             },
             "type": "composition"
           },
