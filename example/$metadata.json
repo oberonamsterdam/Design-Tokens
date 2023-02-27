@@ -10,13 +10,6 @@
     "application/media-query",
     "application/border-width",
     "application/radius",
-    "application/font-size",
-    "application/action-color",
-    "application/background",
-    "application/border-color",
-    "application/text-color",
-    "application/action-radius",
-    "application/disabled-color",
     "component/button",
     "component/input",
     "component/link",
@@ -24,6 +17,8 @@
     "component/radio",
     "component/switch",
     "component/title",
-    "component/body"
+    "component/body",
+    "brand/typescale",
+    "brand/unit"
   ]
 }

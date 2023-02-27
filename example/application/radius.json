@@ -1,18 +1,18 @@
 {
-    "radius": {
-        "m": {
-            "value": "4px",
-            "type": "borderRadius"
-        },
-        "max": {
-            "value": "9999px",
-            "type": "borderRadius"
-        },
-        "action": {
-            "default": {
-                "value": "{radius.m}",
-                "type": "borderRadius"
-            }
-        }
+  "radius": {
+    "m": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "max": {
+      "value": "9999px",
+      "type": "borderRadius"
+    },
+    "action": {
+      "default": {
+        "value": "{radius.m}",
+        "type": "borderRadius"
+      }
     }
+  }
 }
