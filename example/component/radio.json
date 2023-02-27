@@ -5,9 +5,9 @@
                 "body": {
                     "value": {
                         "width": "{sizing.scale.5}",
-                        "height": "{radio.enabled.body.width}",
+                        "height": "{sizing.scale.5}",
                         "fill": "{color.background.neutral.default}",
-                        "borderRadius": "{border-radius.max}",
+                        "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
                         "border": "{color.border.neutral.default}"
                     },
@@ -16,9 +16,9 @@
                 "icon": {
                     "value": {
                         "width": "{sizing.scale.1}",
-                        "height": "{radio.enabled.icon.width}",
+                        "height": "{sizing.scale.1}",
                         "fill": "rgba(0,0,0,0)",
-                        "borderRadius": "{radio.enabled.body.borderRadius}"
+                        "borderRadius": "{radius.max}"
                     },
                     "type": "composition"
                 }
@@ -26,21 +26,21 @@
             "selected": {
                 "body": {
                     "value": {
-                        "width": "{radio.enabled.body.width}",
-                        "height": "{radio.enabled.body.height}",
+                        "width": "{sizing.scale.5}",
+                        "height": "{sizing.scale.5}",
                         "fill": "{color.action.primary.enabled.background}",
-                        "borderRadius": "{radio.enabled.body.borderRadius}",
-                        "borderWidth": "{radio.enabled.body.borderWidth}",
+                        "borderRadius": "{radius.max}",
+                        "borderWidth": "{border-width.m}",
                         "border": "{color.action.primary.active.border}"
                     },
                     "type": "composition"
                 },
                 "icon": {
                     "value": {
-                        "width": "{radio.enabled.icon.width}",
-                        "height": "{radio.enabled.icon.height}",
+                        "width": "{sizing.scale.1}",
+                        "height": "{sizing.scale.1}",
                         "fill": "{color.action.primary.enabled.foreground}",
-                        "borderRadius": "{radio.enabled.icon.borderRadius}"
+                        "borderRadius": "{radius.max}"
                     },
                     "type": "composition"
                 }

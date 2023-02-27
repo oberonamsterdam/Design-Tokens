@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "gen:tokens": "node build.js"
+    },
+    "dependencies": {
+        "style-dictionary": "^3.7.2"
+    }
+}

@@ -7,7 +7,7 @@
                         "width": "{sizing.scale.7}",
                         "height": "{sizing.scale.5}",
                         "fill": "{color.background.neutral.default}",
-                        "borderRadius": "{border-radius.max}",
+                        "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
                         "border": "{color.border.neutral.default}"
                     },
@@ -16,9 +16,9 @@
                 "icon": {
                     "value": {
                         "width": "{sizing.scale.4}",
-                        "height": "{switch.enabled.icon.width}",
+                        "height": "{sizing.scale.4}",
                         "fill": "rgba(0,0,0,0)",
-                        "borderRadius": "{switch.enabled.body.borderRadius}",
+                        "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
                         "border": "{color.border.neutral.default}"
                     },
@@ -28,23 +28,23 @@
             "selected": {
                 "body": {
                     "value": {
-                        "width": "{switch.enabled.body.width}",
-                        "height": "{switch.enabled.body.height}",
+                        "width": "{sizing.scale.7}",
+                        "height": "{sizing.scale.5}",
                         "fill": "{color.action.primary.enabled.background}",
-                        "borderRadius": "{switch.enabled.body.borderRadius}",
-                        "borderWidth": "{switch.enabled.body.borderWidth}",
+                        "borderRadius": "{radius.max}",
+                        "borderWidth": "{border-width.m}",
                         "border": "{color.action.primary.active.border}"
                     },
                     "type": "composition"
                 },
                 "icon": {
                     "value": {
-                        "width": "{switch.enabled.icon.width}",
-                        "height": "{switch.enabled.icon.height}",
+                        "width": "{sizing.scale.4}",
+                        "height": "{sizing.scale.4}",
                         "fill": "{color.action.primary.enabled.foreground}",
-                        "borderRadius": "{switch.enabled.icon.borderRadius}",
-                        "borderWidth": "{switch.enabled.icon.borderWidth}",
-                        "border": "{switch.enabled.icon.border}"
+                        "borderRadius": "{radius.max}",
+                        "borderWidth": "{border-width.m}",
+                        "border": "{color.border.neutral.default}"
                     },
                     "type": "composition"
                 }

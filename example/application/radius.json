@@ -10,7 +10,7 @@
         },
         "action": {
             "default": {
-                "value": "{border-radius.m}",
+                "value": "{radius.m}",
                 "type": "borderRadius"
             }
         }
