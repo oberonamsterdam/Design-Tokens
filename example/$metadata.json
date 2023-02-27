@@ -1,24 +1,24 @@
 {
-  "tokenSetOrder": [
-    "brand/color",
-    "brand/font-family",
-    "brand/font-weight",
-    "brand/line-height",
-    "application/color",
-    "application/sizing",
-    "application/spacing",
-    "application/media-query",
-    "application/border-width",
-    "application/radius",
-    "component/button",
-    "component/input",
-    "component/link",
-    "component/checkbox",
-    "component/radio",
-    "component/switch",
-    "component/title",
-    "component/body",
-    "brand/typescale",
-    "brand/unit"
-  ]
+    "tokenSetOrder": [
+        "brand/color",
+        "brand/typescale",
+        "brand/unit",
+        "brand/font-family",
+        "brand/font-weight",
+        "brand/line-height",
+        "application/color",
+        "application/sizing",
+        "application/spacing",
+        "application/media-query",
+        "application/border-width",
+        "application/radius",
+        "component/body",
+        "component/title",
+        "component/button",
+        "component/link",
+        "component/input",
+        "component/checkbox",
+        "component/radio",
+        "component/switch"
+    ]
 }
