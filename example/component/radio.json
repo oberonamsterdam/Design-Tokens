@@ -26,8 +26,8 @@
             "selected": {
                 "body": {
                     "value": {
-                        "width": "{sizing.scale.5}",
-                        "height": "{sizing.scale.5}",
+                        "width": "{sizing.scale.6}",
+                        "height": "{sizing.scale.6}",
                         "fill": "{color.action.primary.enabled.background}",
                         "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
@@ -37,8 +37,8 @@
                 },
                 "icon": {
                     "value": {
-                        "width": "{sizing.scale.1}",
-                        "height": "{sizing.scale.1}",
+                        "width": "{sizing.scale.2}",
+                        "height": "{sizing.scale.2}",
                         "fill": "{color.action.primary.enabled.foreground}",
                         "borderRadius": "{radius.max}"
                     },

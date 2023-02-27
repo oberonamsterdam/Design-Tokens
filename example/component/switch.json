@@ -4,8 +4,8 @@
             "enabled": {
                 "body": {
                     "value": {
-                        "width": "{sizing.scale.7}",
-                        "height": "{sizing.scale.5}",
+                        "width": "{sizing.scale.8}",
+                        "height": "{sizing.scale.6}",
                         "fill": "{color.background.neutral.default}",
                         "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
@@ -15,8 +15,8 @@
                 },
                 "icon": {
                     "value": {
-                        "width": "{sizing.scale.4}",
-                        "height": "{sizing.scale.4}",
+                        "width": "{sizing.scale.5}",
+                        "height": "{sizing.scale.5}",
                         "fill": "rgba(0,0,0,0)",
                         "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
@@ -28,8 +28,8 @@
             "selected": {
                 "body": {
                     "value": {
-                        "width": "{sizing.scale.7}",
-                        "height": "{sizing.scale.5}",
+                        "width": "{sizing.scale.8}",
+                        "height": "{sizing.scale.6}",
                         "fill": "{color.action.primary.enabled.background}",
                         "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",
@@ -39,8 +39,8 @@
                 },
                 "icon": {
                     "value": {
-                        "width": "{sizing.scale.4}",
-                        "height": "{sizing.scale.4}",
+                        "width": "{sizing.scale.5}",
+                        "height": "{sizing.scale.5}",
                         "fill": "{color.action.primary.enabled.foreground}",
                         "borderRadius": "{radius.max}",
                         "borderWidth": "{border-width.m}",

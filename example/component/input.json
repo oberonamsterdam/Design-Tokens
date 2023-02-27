@@ -8,8 +8,8 @@
                         "borderRadius": "{radius.action.default}",
                         "borderWidth": "{border-width.m}",
                         "border": "{color.border.neutral.default}",
-                        "height": "{sizing.scale.8}",
-                        "horizontalPadding": "{spacing.scale.3}"
+                        "height": "{sizing.scale.9}",
+                        "horizontalPadding": "{spacing.scale.4}"
                     },
                     "type": "composition"
                 },
