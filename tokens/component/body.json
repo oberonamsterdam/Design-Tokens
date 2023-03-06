@@ -1,15 +1,15 @@
 {
-    "component": {
-        "body": {
-            "m": {
-                "value": {
-                    "fontFamily": "{brand.font-family.sans-serif}",
-                    "fontWeight": "{font-weight.m}",
-                    "fontSize": "{brand.typescale.4}",
-                    "lineHeight": "{line-height.s}"
-                },
-                "type": "typography"
-            }
-        }
+  "component": {
+    "body": {
+      "m": {
+        "value": {
+          "fontFamily": "{brand.font-family.sans-serif}",
+          "fontWeight": "{font-weight.m}",
+          "fontSize": "{brand.typescale.4}",
+          "lineHeight": "{line-height.s}"
+        },
+        "type": "typography"
+      }
     }
+  }
 }
