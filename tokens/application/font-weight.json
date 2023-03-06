@@ -1,0 +1,16 @@
+{
+    "font-weight": {
+        "m": {
+            "value": "400",
+            "type": "fontWeights"
+        },
+        "l": {
+            "value": "500",
+            "type": "fontWeights"
+        },
+        "xl": {
+            "value": "700",
+            "type": "fontWeights"
+        }
+    }
+}

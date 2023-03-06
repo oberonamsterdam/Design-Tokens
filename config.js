@@ -1,8 +1,8 @@
 module.exports = {
-    source: ["example/**/*.json"],
+    source: ["tokens/**/*.json"],
     platforms: {
         js: {
-            buildPath: "generated/",
+            buildPath: "src/generated/",
             files: [
                 {
                     destination: "tokens.ts",
@@ -11,7 +11,6 @@ module.exports = {
                 },
             ],
             transforms: [
-                "figma/web/flatten-properties",
                 "attribute/cti",
                 "name/cti/pascal",
                 "color/hex",
