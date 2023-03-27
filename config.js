@@ -11,6 +11,7 @@ module.exports = {
                 },
             ],
             transforms: [
+                "composite",
                 "attribute/cti",
                 "name/cti/pascal",
                 "color/hex",
