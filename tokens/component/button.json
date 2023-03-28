@@ -1,0 +1,27 @@
+{
+  "component": {
+    "button": {
+      "solid": {
+        "enabled": {
+          "body": {
+            "value": {
+              "height": "{sizing.scale.9}",
+              "horizontalPadding": "{spacing.scale.5}",
+              "fill": "{color.action.primary.enabled.background}",
+              "borderRadius": "{radius.action.default}",
+              "borderWidth": "{border-width.m}",
+              "border": "{color.action.primary.enabled.border}"
+            },
+            "type": "composition"
+          },
+          "label": {
+            "value": {
+              "fontWeights": "{font-weight.xl}"
+            },
+            "type": "composition"
+          }
+        }
+      }
+    }
+  }
+}
