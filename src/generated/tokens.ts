@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Feb 2023 14:08:02 GMT
+ * Generated on Mon, 03 Apr 2023 05:19:07 GMT
  */
 
 export const BorderWidthM = "1px";
@@ -84,11 +84,15 @@ export const SpacingScale20 = "224px";
 export const ComponentBodyM = {"fontFamily":"Helvetica","fontWeight":"400","fontSize":"18px","lineHeight":"100%"};
 export const ComponentButtonSolidEnabledBody = {"height":"40px","horizontalPadding":"16px","fill":"blue","borderRadius":"4px","borderWidth":"1px","border":"blue"};
 export const ComponentButtonSolidEnabledLabel = {"fontWeights":"700"};
-export const ComponentCheckboxEnabledBody = {"width":"20px","height":"20px","fill":"#ffffff","borderRadius":"4px","borderWidth":"1px","border":"#C6C6C6"};
+export const ComponentCheckboxEnabledControl = {"width":"20px","height":"20px","fill":"#ffffff","borderRadius":"4px","borderWidth":"1px","border":"#C6C6C6"};
 export const ComponentCheckboxEnabledIcon = {"width":"16px","height":"16px","fill":"rgba(0,0,0,0)"};
-export const ComponentCheckboxSelectedBody = {"width":"20px","height":"20px","fill":"blue","borderRadius":"4px","borderWidth":"1px","border":"darkblue"};
+export const ComponentCheckboxEnabledContainer = {};
+export const ComponentCheckboxEnabledLabel = {};
+export const ComponentCheckboxSelectedControl = {"width":"20px","height":"20px","fill":"blue","borderRadius":"4px","borderWidth":"1px","border":"darkblue"};
 export const ComponentCheckboxSelectedIcon = {"width":"16px","height":"16px","fill":"#ffffff"};
-export const ComponentInputEnabled = {"value":{"typography":{"fontFamily":"Helvetica","fontWeight":"400","fontSize":"18px","lineHeight":"100%"}},"type":"composition","filePath":"example/component/input.json","isSource":true};
+export const ComponentCheckboxSelectedContainer = {};
+export const ComponentCheckboxSelectedLabel = {};
+export const ComponentInputEnabled = {"value":{"typography":{"fontFamily":"Helvetica","fontWeight":"400","fontSize":"18px","lineHeight":"100%"}},"type":"composition","filePath":"tokens/component/input.json","isSource":true};
 export const ComponentLinkEnabledLabel = {"fill":"blue"};
 export const ComponentRadioEnabledBody = {"width":"20px","height":"20px","fill":"#ffffff","borderRadius":"9999px","borderWidth":"1px","border":"#C6C6C6"};
 export const ComponentRadioEnabledIcon = {"width":"2px","height":"2px","fill":"rgba(0,0,0,0)","borderRadius":"9999px"};

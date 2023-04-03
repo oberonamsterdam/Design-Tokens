@@ -1,20 +1,18 @@
-import { ComponentSingleStyleConfig } from "@chakra-ui/react";
+import { defineStyleConfig, defineStyle } from "@chakra-ui/react";
 
 import compositionTokenToStyles from "../../../utils/compositionTokenToStyles";
 
-type ButtonTheme = ComponentSingleStyleConfig;
-
-const button: ButtonTheme = {
+const button = defineStyleConfig({
     variants: {
-        solid: ({ theme }) => ({
+        solid: defineStyle(({ theme }) => ({
             ...compositionTokenToStyles(
                 theme.tokens.ComponentButtonSolidEnabledBody
             ),
             ...compositionTokenToStyles(
                 theme.tokens.ComponentButtonSolidEnabledLabel
             ),
-        }),
+        })),
     },
-};
+});
 
 export default button;
