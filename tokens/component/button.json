@@ -19,6 +19,12 @@
               "fontWeights": "{font-weight.xl}"
             },
             "type": "composition"
+          },
+          "icon": {
+            "value": {
+              "width": "{sizing.scale.6}"
+            },
+            "type": "composition"
           }
         }
       }
