@@ -1,5 +1,5 @@
 module.exports = {
-    source: ["tokens/**/*.json"],
+    source: ["tokens/**/*.json", "tokens/**/*.jsonc"],
     platforms: {
         js: {
             buildPath: "src/generated/",

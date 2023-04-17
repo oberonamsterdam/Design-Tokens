@@ -1,0 +1,77 @@
+{
+    "component": {
+        "checkbox": {
+            "baseStyle": {
+                // the checkbox itself box
+                "control": {
+                    // when enabled
+                    "enabled": {
+                        "value": {
+                            "width": "{sizing.scale.6}",
+                            "height": "{sizing.scale.6}",
+                            "fill": "{color.background.neutral.default}",
+                            "borderRadius": "{radius.action.default}",
+                            "borderWidth": "{border-width.m}",
+                            "border": "{color.border.neutral.default}"
+                        },
+                        "type": "composition"
+                    },
+                    // when checked
+                    "checked": {
+                        "value": {
+                            "width": "{sizing.scale.6}",
+                            "height": "{sizing.scale.6}",
+                            "fill": "{color.action.primary.enabled.background}",
+                            "borderRadius": "{radius.action.default}",
+                            "borderWidth": "{border-width.m}",
+                            "border": "{color.action.primary.active.border}"
+                        },
+                        "type": "composition"
+                    },
+                    // when some children are checked
+                    "indeterminate": { "value": {}, "type": "composition" },
+                    // when disabled
+                    "disabled": { "value": {}, "type": "composition" },
+                    // when checkbox has focus
+                    "focus": { "value": {}, "type": "composition" },
+                    // when invalid
+                    "invalid": { "value": {}, "type": "composition" }
+                },
+                // the checkmark
+                "icon": {
+                    "enabled": {
+                        "value": {
+                            "width": "{sizing.scale.5}",
+                            "height": "{sizing.scale.5}",
+                            "fill": "rgba(0,0,0,0)"
+                        },
+                        "type": "composition"
+                    },
+                    "checked": { "value": {}, "type": "composition" },
+                    "indeterminate": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "invalid": { "value": {}, "type": "composition" }
+                },
+                // the container
+                "container": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "checked": { "value": {}, "type": "composition" },
+                    "indeterminate": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "invalid": { "value": {}, "type": "composition" }
+                },
+                // the label
+                "label": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "checked": { "value": {}, "type": "composition" },
+                    "indeterminate": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "invalid": { "value": {}, "type": "composition" }
+                }
+            }
+        }
+    }
+}

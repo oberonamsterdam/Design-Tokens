@@ -28,17 +28,8 @@ StyleDictionary.registerTransform({
 StyleDictionary.registerTransform({
     name: "composite",
     type: "value",
-    matcher: ({ type, path, original }) => {
-        console.log({ type, path, original });
-        return type === "composition";
-    },
-    transitive: (...all) => {
-        console.log(all);
-    },
-    transformer: (token, options) => {
-        console.log(token, options);
-        return token.original.value;
-    },
+    matcher: ({ type }) => type === "composition",
+    transformer: (token) => token.original.value,
 });
 
 StyleDictionary.buildAllPlatforms();

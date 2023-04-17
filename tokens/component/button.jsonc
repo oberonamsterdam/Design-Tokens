@@ -1,0 +1,92 @@
+{
+    "component": {
+        "button": {
+            "baseStyle": {
+                "enabled": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "hover": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "active": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "disabled": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                }
+            },
+            "sizes": {
+                "xs": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "sm": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "md": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                },
+                "lg": {
+                    "body": { "value": {}, "type": "composition" },
+                    "label": { "value": {}, "type": "composition" },
+                    "icon": { "value": {}, "type": "composition" }
+                }
+            },
+            "variants": {
+                "solid": {
+                    "enabled": {
+                        "body": {
+                            "value": {
+                                "height": "{sizing.scale.9}",
+                                "horizontalPadding": "{spacing.scale.5}",
+                                "fill": "{color.action.primary.enabled.background}",
+                                "borderRadius": "{radius.action.default}",
+                                "borderWidth": "{border-width.m}",
+                                "border": "{color.action.primary.enabled.border}"
+                            },
+                            "type": "composition"
+                        },
+                        "label": {
+                            "value": {
+                                "fontWeights": "{font-weight.xl}"
+                            },
+                            "type,": "composition"
+                        },
+                        "icon": {
+                            "value": {},
+                            "type,": "composition"
+                        }
+                    },
+                    "hover": {
+                        "body": { "value": {}, "type": "composition" },
+                        "label": { "value": {}, "type": "composition" },
+                        "icon": { "value": {}, "type": "composition" }
+                    },
+                    "active": {
+                        "body": { "value": {}, "type": "composition" },
+                        "label": { "value": {}, "type": "composition" },
+                        "icon": { "value": {}, "type": "composition" }
+                    },
+                    "disabled": {
+                        "body": { "value": {}, "type": "composition" },
+                        "label": { "value": {}, "type": "composition" },
+                        "icon": { "value": {}, "type": "composition" }
+                    }
+                }
+            }
+        }
+    }
+}

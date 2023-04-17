@@ -1,0 +1,64 @@
+{
+    "component": {
+        "input": {
+            "baseStyle": {
+                // the input box
+                "field": {
+                    "enabled": {
+                        "value": {
+                            "typography": "{component.body.m}"
+                        },
+                        "type": "composition"
+                    },
+                    "hover": { "value": {}, "type": "composition" },
+                    "invalid": { "value": {}, "type": "composition" },
+                    "readOnly": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" }
+                },
+                // icon on the inside of the input box
+                "element": { "value": {}, "type": "composition" },
+                // addons on the left and right of the input box
+                "addon": { "value": {}, "type": "composition" }
+            },
+            "variants": {
+                // traditional input
+                "outline": {
+                    "field": {
+                        "enabled": {
+                            "value": {
+                                "fill": "{color.background.neutral.default}",
+                                "borderRadius": "{radius.action.default}",
+                                "borderWidth": "{border-width.m}",
+                                "border": "{color.border.neutral.default}",
+                                "height": "{sizing.scale.9}",
+                                "horizontalPadding": "{spacing.scale.4}"
+                            },
+                            "type": "composition"
+                        },
+                        "hover": { "value": {}, "type": "composition" },
+                        "invalid": { "value": {}, "type": "composition" },
+                        "readOnly": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" }
+                    },
+                    "element": { "value": {}, "type": "composition" },
+                    "addon": { "value": {}, "type": "composition" }
+                },
+                // input with only a border bottom
+                "flushed": {
+                    "field": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "invalid": { "value": {}, "type": "composition" },
+                        "readOnly": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" }
+                    },
+                    "element": { "value": {}, "type": "composition" },
+                    "addon": { "value": {}, "type": "composition" }
+                }
+            }
+        }
+    }
+}
