@@ -1,0 +1,18 @@
+{
+    "component": {
+        "link": {
+            "baseStyle": {
+                "enabled": {
+                    "value": {
+                        "fill": "{color.action.primary.enabled.background}"
+                    },
+                    "type": "composition"
+                },
+                "visited": { "value": {}, "type": "composition" },
+                "hover": { "value": {}, "type": "composition" },
+                "focus": { "value": {}, "type": "composition" },
+                "active": { "value": {}, "type": "composition" }
+            }
+        }
+    }
+}

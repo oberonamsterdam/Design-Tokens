@@ -1,0 +1,33 @@
+{
+    "component": {
+        // on/off switch, the label is not part of the component
+        "switch": {
+            "baseStyle": {
+                "container": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "checked": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
+                },
+                "thumb": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "checked": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
+                },
+                "track": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "checked": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
+                }
+            }
+        }
+    }
+}

@@ -37,10 +37,10 @@ interface CompositionToken {
         type?: "dropShadow" | "innerShadow";
     };
     opacity?: string;
-    fontFamilies?: string;
-    fontWeights?: string;
-    fontSizes?: string;
-    lineHeights?: string;
+    fontFamily?: string;
+    fontWeight?: string;
+    fontSize?: string;
+    lineHeight?: string;
     typography?: {
         fontFamily?: string;
         fontWeight?: string;

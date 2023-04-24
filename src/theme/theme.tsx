@@ -62,8 +62,8 @@ const theme = {
         xl: tokens.FontWeightXl,
     },
     fonts: {
-        title: tokens.ComponentTitleM.fontFamily,
-        body: tokens.ComponentBodyM.fontFamily,
+        title: tokens.ComponentTitleBaseStyle.fontFamily,
+        body: tokens.ComponentTextBaseStyle.fontFamily,
     },
     radius: {
         m: tokens.RadiusM,

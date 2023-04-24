@@ -1,55 +1,66 @@
 import { defineStyleConfig, defineStyle } from "@chakra-ui/react";
 import compositionTokenToStyles from "../../../utils/compositionTokenToStyles";
 
-const button = defineStyleConfig({
-    baseStyle: defineStyle(({ theme }) => ({
+const buttonTheme = defineStyleConfig({
+    baseStyle: defineStyle(({ theme: { tokens } }) => ({
+        ...compositionTokenToStyles(tokens.ComponentButtonBaseStyleBodyEnabled),
         ...compositionTokenToStyles(
-            theme.tokens.ComponentButtonBaseStyleEnabledBody
-        ),
-        ...compositionTokenToStyles(
-            theme.tokens.ComponentButtonBaseStyleEnabledLabel
+            tokens.ComponentButtonBaseStyleLabelEnabled
         ),
         "& > svg": {
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledIcon
+                tokens.ComponentButtonBaseStyleIconEnabled
             ),
         },
         _hover: {
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleHoverBody
+                tokens.ComponentButtonBaseStyleBodyHover
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleHoverLabel
+                tokens.ComponentButtonBaseStyleLabelHover
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverIcon
+                    tokens.ComponentButtonBaseStyleIconHover
+                ),
+            },
+        },
+        _focusVisible: {
+            ...compositionTokenToStyles(
+                tokens.ComponentButtonBaseStyleBodyFocus
+            ),
+            ...compositionTokenToStyles(
+                tokens.ComponentButtonBaseStyleLabelFocus
+            ),
+            "& > svg": {
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonBaseStyleIconFocus
                 ),
             },
         },
         _active: {
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleActiveBody
+                tokens.ComponentButtonBaseStyleBodyActive
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleActiveLabel
+                tokens.ComponentButtonBaseStyleLabelActive
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveIcon
+                    tokens.ComponentButtonBaseStyleIconActive
                 ),
             },
         },
         _disabled: {
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleDisabledBody
+                tokens.ComponentButtonBaseStyleBodyDisabled
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleDisabledLabel
+                tokens.ComponentButtonBaseStyleLabelDisabled
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledIcon
+                    tokens.ComponentButtonBaseStyleIconDisabled
                 ),
             },
         },
@@ -109,210 +120,262 @@ const button = defineStyleConfig({
         })),
     },
     variants: {
-        solid: defineStyle(({ theme }) => ({
+        solid: defineStyle(({ theme: { tokens } }) => ({
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledBody
+                tokens.ComponentButtonVariantsSolidBodyEnabled
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledLabel
+                tokens.ComponentButtonVariantsSolidLabelEnabled
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleEnabledIcon
+                    tokens.ComponentButtonVariantsSolidIconEnabled
                 ),
             },
             _hover: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverBody
+                    tokens.ComponentButtonVariantsSolidBodyHover
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverLabel
+                    tokens.ComponentButtonVariantsSolidLabelHover
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleHoverIcon
+                        tokens.ComponentButtonVariantsSolidIconHover
+                    ),
+                },
+            },
+            _focusVisible: {
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsSolidBodyFocus
+                ),
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsSolidLabelFocus
+                ),
+                "& > svg": {
+                    ...compositionTokenToStyles(
+                        tokens.ComponentButtonVariantsSolidIconFocus
                     ),
                 },
             },
             _active: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveBody
+                    tokens.ComponentButtonVariantsSolidBodyActive
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveLabel
+                    tokens.ComponentButtonVariantsSolidLabelActive
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleActiveIcon
+                        tokens.ComponentButtonVariantsSolidIconActive
                     ),
                 },
             },
             _disabled: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledBody
+                    tokens.ComponentButtonVariantsSolidBodyDisabled
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledLabel
+                    tokens.ComponentButtonVariantsSolidLabelDisabled
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleDisabledIcon
+                        tokens.ComponentButtonVariantsSolidIconDisabled
                     ),
                 },
             },
         })),
-        outline: defineStyle(({ theme }) => ({
+        outline: defineStyle(({ theme: { tokens } }) => ({
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledBody
+                tokens.ComponentButtonVariantsOutlineBodyEnabled
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledLabel
+                tokens.ComponentButtonVariantsOutlineLabelEnabled
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleEnabledIcon
+                    tokens.ComponentButtonVariantsOutlineIconEnabled
                 ),
             },
             _hover: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverBody
+                    tokens.ComponentButtonVariantsOutlineBodyHover
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverLabel
+                    tokens.ComponentButtonVariantsOutlineLabelHover
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleHoverIcon
+                        tokens.ComponentButtonVariantsOutlineIconHover
+                    ),
+                },
+            },
+            _focusVisible: {
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsOutlineBodyFocus
+                ),
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsOutlineLabelFocus
+                ),
+                "& > svg": {
+                    ...compositionTokenToStyles(
+                        tokens.ComponentButtonVariantsOutlineIconFocus
                     ),
                 },
             },
             _active: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveBody
+                    tokens.ComponentButtonVariantsOutlineBodyActive
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveLabel
+                    tokens.ComponentButtonVariantsOutlineLabelActive
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleActiveIcon
+                        tokens.ComponentButtonVariantsOutlineIconActive
                     ),
                 },
             },
             _disabled: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledBody
+                    tokens.ComponentButtonVariantsOutlineBodyDisabled
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledLabel
+                    tokens.ComponentButtonVariantsOutlineLabelDisabled
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleDisabledIcon
+                        tokens.ComponentButtonVariantsOutlineIconDisabled
                     ),
                 },
             },
         })),
-        ghost: defineStyle(({ theme }) => ({
+        ghost: defineStyle(({ theme: { tokens } }) => ({
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledBody
+                tokens.ComponentButtonVariantsGhostBodyEnabled
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledLabel
+                tokens.ComponentButtonVariantsGhostLabelEnabled
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleEnabledIcon
+                    tokens.ComponentButtonVariantsGhostIconEnabled
                 ),
             },
             _hover: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverBody
+                    tokens.ComponentButtonVariantsGhostBodyHover
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverLabel
+                    tokens.ComponentButtonVariantsGhostLabelHover
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleHoverIcon
+                        tokens.ComponentButtonVariantsGhostIconHover
+                    ),
+                },
+            },
+            _focusVisible: {
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsGhostBodyFocus
+                ),
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsGhostLabelFocus
+                ),
+                "& > svg": {
+                    ...compositionTokenToStyles(
+                        tokens.ComponentButtonVariantsGhostIconFocus
                     ),
                 },
             },
             _active: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveBody
+                    tokens.ComponentButtonVariantsGhostBodyActive
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveLabel
+                    tokens.ComponentButtonVariantsGhostLabelActive
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleActiveIcon
+                        tokens.ComponentButtonVariantsGhostIconActive
                     ),
                 },
             },
             _disabled: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledBody
+                    tokens.ComponentButtonVariantsGhostBodyDisabled
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledLabel
+                    tokens.ComponentButtonVariantsGhostLabelDisabled
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleDisabledIcon
+                        tokens.ComponentButtonVariantsGhostIconDisabled
                     ),
                 },
             },
         })),
-        link: defineStyle(({ theme }) => ({
+        link: defineStyle(({ theme: { tokens } }) => ({
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledBody
+                tokens.ComponentButtonVariantsLinkBodyEnabled
             ),
             ...compositionTokenToStyles(
-                theme.tokens.ComponentButtonBaseStyleEnabledLabel
+                tokens.ComponentButtonVariantsLinkLabelEnabled
             ),
             "& > svg": {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleEnabledIcon
+                    tokens.ComponentButtonVariantsLinkIconEnabled
                 ),
             },
             _hover: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverBody
+                    tokens.ComponentButtonVariantsLinkBodyHover
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleHoverLabel
+                    tokens.ComponentButtonVariantsLinkLabelHover
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleHoverIcon
+                        tokens.ComponentButtonVariantsLinkIconHover
+                    ),
+                },
+            },
+            _focusVisible: {
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsLinkBodyFocus
+                ),
+                ...compositionTokenToStyles(
+                    tokens.ComponentButtonVariantsLinkLabelFocus
+                ),
+                "& > svg": {
+                    ...compositionTokenToStyles(
+                        tokens.ComponentButtonVariantsLinkIconFocus
                     ),
                 },
             },
             _active: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveBody
+                    tokens.ComponentButtonVariantsLinkBodyActive
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleActiveLabel
+                    tokens.ComponentButtonVariantsLinkLabelActive
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleActiveIcon
+                        tokens.ComponentButtonVariantsLinkIconActive
                     ),
                 },
             },
             _disabled: {
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledBody
+                    tokens.ComponentButtonVariantsLinkBodyDisabled
                 ),
                 ...compositionTokenToStyles(
-                    theme.tokens.ComponentButtonBaseStyleDisabledLabel
+                    tokens.ComponentButtonVariantsLinkLabelDisabled
                 ),
                 "& > svg": {
                     ...compositionTokenToStyles(
-                        theme.tokens.ComponentButtonBaseStyleDisabledIcon
+                        tokens.ComponentButtonVariantsLinkIconDisabled
                     ),
                 },
             },
@@ -320,4 +383,4 @@ const button = defineStyleConfig({
     },
 });
 
-export default button;
+export default buttonTheme;

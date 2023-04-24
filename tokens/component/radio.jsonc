@@ -1,8 +1,8 @@
 {
     "component": {
-        "checkbox": {
+        "radio": {
             "baseStyle": {
-                // the checkbox itself
+                // the radio itself
                 "control": {
                     // when enabled
                     "enabled": {
@@ -28,11 +28,9 @@
                         },
                         "type": "composition"
                     },
-                    // when some children are checked
-                    "indeterminate": { "value": {}, "type": "composition" },
                     // when disabled
                     "disabled": { "value": {}, "type": "composition" },
-                    // when checkbox has focus
+                    // when radio has focus
                     "focus": { "value": {}, "type": "composition" },
                     // when invalid
                     "invalid": { "value": {}, "type": "composition" }
@@ -48,7 +46,6 @@
                         "type": "composition"
                     },
                     "checked": { "value": {}, "type": "composition" },
-                    "indeterminate": { "value": {}, "type": "composition" },
                     "disabled": { "value": {}, "type": "composition" },
                     "focus": { "value": {}, "type": "composition" },
                     "invalid": { "value": {}, "type": "composition" }
@@ -57,7 +54,6 @@
                 "container": {
                     "enabled": { "value": {}, "type": "composition" },
                     "checked": { "value": {}, "type": "composition" },
-                    "indeterminate": { "value": {}, "type": "composition" },
                     "disabled": { "value": {}, "type": "composition" },
                     "focus": { "value": {}, "type": "composition" },
                     "invalid": { "value": {}, "type": "composition" }
@@ -66,7 +62,6 @@
                 "label": {
                     "enabled": { "value": {}, "type": "composition" },
                     "checked": { "value": {}, "type": "composition" },
-                    "indeterminate": { "value": {}, "type": "composition" },
                     "disabled": { "value": {}, "type": "composition" },
                     "focus": { "value": {}, "type": "composition" },
                     "invalid": { "value": {}, "type": "composition" }

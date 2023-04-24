@@ -6,7 +6,7 @@
                 "field": {
                     "enabled": {
                         "value": {
-                            "typography": "{component.body.m}"
+                            "typography": "{component.text.baseStyle}"
                         },
                         "type": "composition"
                     },

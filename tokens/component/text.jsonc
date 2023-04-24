@@ -1,11 +1,11 @@
 {
     "component": {
-        "title": {
+        "text": {
             "baseStyle": {
                 "value": {
                     "fontFamily": "{brand.font-family.sans-serif}",
-                    "fontWeight": "{font-weight.l}",
-                    "lineHeight": "{line-height.s}",
+                    "fontWeight": "{font-weight.m}",
+                    "lineHeight": "{line-height.m}",
                     "fontSize": "{brand.typescale.4}"
                 },
                 "type": "typography"
@@ -13,31 +13,31 @@
             "sizes": {
                 "xs": {
                     "value": {
-                        "fontSize": "{brand.typescale.4}"
+                        "fontSize": "{brand.typescale.2}"
                     },
                     "type": "typography"
                 },
                 "sm": {
                     "value": {
-                        "fontSize": "{brand.typescale.5}"
+                        "fontSize": "{brand.typescale.3}"
                     },
                     "type": "typography"
                 },
                 "md": {
                     "value": {
-                        "fontSize": "{brand.typescale.6}"
+                        "fontSize": "{brand.typescale.4}"
                     },
                     "type": "typography"
                 },
                 "lg": {
                     "value": {
-                        "fontSize": "{brand.typescale.7}"
+                        "fontSize": "{brand.typescale.5}"
                     },
                     "type": "typography"
                 },
                 "xl": {
                     "value": {
-                        "fontSize": "{brand.typescale.8}"
+                        "fontSize": "{brand.typescale.6}"
                     },
                     "type": "typography"
                 }

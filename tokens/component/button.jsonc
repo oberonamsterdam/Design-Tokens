@@ -2,25 +2,26 @@
     "component": {
         "button": {
             "baseStyle": {
-                "enabled": {
-                    "body": { "value": {}, "type": "composition" },
-                    "label": { "value": {}, "type": "composition" },
-                    "icon": { "value": {}, "type": "composition" }
+                "body": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
                 },
-                "hover": {
-                    "body": { "value": {}, "type": "composition" },
-                    "label": { "value": {}, "type": "composition" },
-                    "icon": { "value": {}, "type": "composition" }
+                "label": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
                 },
-                "active": {
-                    "body": { "value": {}, "type": "composition" },
-                    "label": { "value": {}, "type": "composition" },
-                    "icon": { "value": {}, "type": "composition" }
-                },
-                "disabled": {
-                    "body": { "value": {}, "type": "composition" },
-                    "label": { "value": {}, "type": "composition" },
-                    "icon": { "value": {}, "type": "composition" }
+                "icon": {
+                    "enabled": { "value": {}, "type": "composition" },
+                    "hover": { "value": {}, "type": "composition" },
+                    "focus": { "value": {}, "type": "composition" },
+                    "active": { "value": {}, "type": "composition" },
+                    "disabled": { "value": {}, "type": "composition" }
                 }
             },
             "sizes": {
@@ -47,8 +48,8 @@
             },
             "variants": {
                 "solid": {
-                    "enabled": {
-                        "body": {
+                    "body": {
+                        "enabled": {
                             "value": {
                                 "height": "{sizing.scale.9}",
                                 "horizontalPadding": "{spacing.scale.5}",
@@ -59,31 +60,98 @@
                             },
                             "type": "composition"
                         },
-                        "label": {
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    },
+                    "label": {
+                        "enabled": {
                             "value": {
-                                "fontWeights": "{font-weight.xl}"
+                                "fontWeight": "{font-weight.xl}"
                             },
                             "type,": "composition"
                         },
-                        "icon": {
-                            "value": {},
-                            "type,": "composition"
-                        }
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
                     },
-                    "hover": {
-                        "body": { "value": {}, "type": "composition" },
-                        "label": { "value": {}, "type": "composition" },
-                        "icon": { "value": {}, "type": "composition" }
+                    "icon": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    }
+                },
+                "outline": {
+                    "body": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
                     },
-                    "active": {
-                        "body": { "value": {}, "type": "composition" },
-                        "label": { "value": {}, "type": "composition" },
-                        "icon": { "value": {}, "type": "composition" }
+                    "label": {
+                        "enabled": { "value": {}, "type,": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
                     },
-                    "disabled": {
-                        "body": { "value": {}, "type": "composition" },
-                        "label": { "value": {}, "type": "composition" },
-                        "icon": { "value": {}, "type": "composition" }
+                    "icon": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    }
+                },
+                "ghost": {
+                    "body": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    },
+                    "label": {
+                        "enabled": { "value": {}, "type,": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    },
+                    "icon": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    }
+                },
+                "link": {
+                    "body": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    },
+                    "label": {
+                        "enabled": { "value": {}, "type,": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
+                    },
+                    "icon": {
+                        "enabled": { "value": {}, "type": "composition" },
+                        "hover": { "value": {}, "type": "composition" },
+                        "focus": { "value": {}, "type": "composition" },
+                        "active": { "value": {}, "type": "composition" },
+                        "disabled": { "value": {}, "type": "composition" }
                     }
                 }
             }
